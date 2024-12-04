@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"/>
+</head>
+<body>
+    
+    <section id="header">
+        <a href="index.html"><img src="assets/img/Logo.png" alt="Logo" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="acerca.html">Sobre Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li id="lg-bag"><a class="active" href="carrito.html"><i class="fa-solid fa-cart-flatbed"></i></a></li>
+                <a href="#" id="close"><i class="fa-regular fa-circle-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="carrito.html"><i class="fa-solid fa-cart-flatbed"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>            
+        </div>
+    </section>
+
+    <section id="page-header" class="cart-header">        
+        
+    </section>
+
+    <section class="section-p1" id="cart">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remover</td>
+                    <td>Imagen</td>
+                    <td>Producto</td>
+                    <td>Precio</td>
+                    <td>Cantidad</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+                    <td><img src="assets/img/productos/Img-1-pc.jpg" alt="Imagen 1"></td>
+                    <td>Computador Ryzen 5</td>
+                    <td>$3.200.000</td>
+                    <td><input type="number" name="" id="" value="1"></td>
+                    <td>$3.200.000</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+                    <td><img src="assets/img/productos/img-10.jpg" alt="Imagen 2"></td>
+                    <td>TARJETA DE VIDEO NVIDIA 16.0 GB DDR6</td>
+                    <td>$2.625.000</td>
+                    <td><input type="number" name="" id="" value="1"></td>
+                    <td>$2.625.000</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+                    <td><img src="assets/img/productos/img-9.jpg" alt="Imagen 3"></td>
+                    <td>TECLADO USB GENIUS KB 116 BASICO</td>
+                    <td>$36.000</td>
+                    <td><input type="number" name="" id="" value="1"></td>
+                    <td>$36.000</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="section-p1" id="cart-add">
+        <div id="cupon">
+            <h3>Aplicar cupón</h3>
+            <div>
+                <input type="text" placeholder="Ingresa tu cupón">
+                <button class="normal">Aplicar</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Total del carrito</h3>
+            <table>
+                <tr>
+                    <td>Subtotal del carro</td>
+                    <td>$5.861.000</td>
+                </tr>
+                <tr>
+                    <td>Envío</td>
+                    <td>Gratis</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$5.861.000</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceder con la compra</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img src="assets/img/Logo.png" alt="Logo" class="logo">
+            <h4>Contacto</h4>
+            <p><strong>Dirección: </strong> Calle 0 Carrera 0 # 0-0 Bogotá</p>
+            <p><strong>Teléfono: </strong> 000000</p>
+            <p><strong>Horario de atención:</strong>  8:00am a 6:00pm Lunes a Viernes</p>
+            <div class="redes">
+                <h4>Síguenos</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col ">
+            <h4>Acerca de</h4>
+            <a href="#">Sobre nosotros</a>
+            <a href="#">Información de la empresa</a>
+            <a href="#">Política de privacidad</a>
+            <a href="#">Términos y condiciones</a>
+            <a href="#">Contáctanos</a>
+        </div>
+        <div class="col">
+            <h4>Mi cuenta</h4>
+            <a href="#">Iniciar sesion</a>
+            <a href="#">Ver carrito</a>
+            <a href="#">Mi lista blanca</a>
+            <a href="#">Seguimiento de mi orden</a>
+            <a href="#">Ayuda</a>
+        </div>
+
+        <div class="col install">
+            <h4>Instala la aplicación</h4>
+            <p>desde la App Store o Play Store</p>
+            <div class="row">
+                <img src="assets/img/App_Store.png" alt="Logo App_Store">
+                <img src="assets/img/Play_Store.png" alt="Logo Play_Store">
+            </div>
+            <p>Medios de pago</p>
+            <img src="assets/img/medios-de-pago.png" alt="Medios de pago" class="medio">
+        </div>
+
+        <div class="copyright">
+            <p>2024 Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
